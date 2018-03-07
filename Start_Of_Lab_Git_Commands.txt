@@ -1,0 +1,5 @@
+cd /c/users/G00354453/downloads/
+git init
+rm -rf first-repository
+git clone https://github.com/JTBuddy/first-repository.git
+cd first-repository 
