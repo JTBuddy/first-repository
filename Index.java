@@ -16,8 +16,8 @@ public class Index{
     System.out.println("7. Second Array");
     System.out.println("8. TryCatch");
     System.out.println("9. EnhancedFor");
-	System.out.println("10. SearchStudents");
-	System.out.println("11. Exit");
+    System.out.println("10. SearchStudents");
+    System.out.println("11. Exit");
 
     System.out.println();
 
@@ -27,35 +27,39 @@ public class Index{
 
     switch(choice){
       case 1:
-        System.out.println("Break lab");
-        Break_Ex2.main(null); //static method call, no instance required.
+             System.out.println("Break lab");
+	     System.out.println();
+             Break_Ex2.main(null); //static method call, no instance required.
         break;
       case 2:
-        System.out.println("Switch lab");
-        System.out.println();
-        FirstSwitch.main(null);
+             System.out.println("Switch lab");
+             System.out.println();
+       	     FirstSwitch.main(null);
         break;
       case 3:
-		System.out.println("Methods lab");
-		System.out.println();
-		Methods.main(null);
+	     System.out.println("Methods lab");
+             System.out.println();
+	     Methods.main(null);
         break;
       case 4:
-      	System.out.println("Shadow lab");
-	  	System.out.println();
-		Shadow.main(null);
-	  case 5:
-		System.out.println("Overloading lab");
-		System.out.println();
-		Arithmetic.main(null);
-	  case 6:
-		System.out.println("First Array");
-		System.out.println();
-		FirstArray.main(null);
-	  case 7:
-        System.out.println("Second Array");
-        System.out.println();
-        SecondArray.main(null);
+      	     System.out.println("Shadow lab");
+	     System.out.println();
+	     Shadow.main(null);
+	  break;
+      case 5:
+	    System.out.println("Overloading lab");
+	    System.out.println();
+	    Arithmetic.main(null);
+	break;
+      case 6:
+            System.out.println("First Array");
+            System.out.println();
+	    FirstArray.main(null);
+        break;
+      case 7:
+            System.out.println("Second Array");
+            System.out.println();
+            SecondArray.main(null);
         break;
       case 8:
 	    System.out.println("TryCatch");
@@ -64,18 +68,19 @@ public class Index{
         break;
       case 9:
 	    System.out.println("EnhancedFor");
-	 	System.out.println();
+	    System.out.println();
 	    EnhancedFor.main(null);
-	  case 10:
-		System.out.println("SearchStudents");
+        break;
+      case 10:
+	    System.out.println("SearchStudents");
 	    System.out.println();
 	    SearchStudents.main(null);
         break;
      case 11:
-     	System.out.println("Exiting....");
+     	    System.out.println("Exiting....");
      	break;
      default:
-        System.out.println("Invalid choice");
+            System.out.println("Invalid choice");
         break;
     }
     System.out.println();
