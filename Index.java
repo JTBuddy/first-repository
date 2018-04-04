@@ -5,7 +5,7 @@ public class Index{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Select an option (1-11):");
+    System.out.println("Select an option (1-13):");
     System.out.println();
     System.out.println("1.  Break");
     System.out.println("2.  Switch");
@@ -17,7 +17,9 @@ public class Index{
     System.out.println("8.  TryCatch");
     System.out.println("9.  EnhancedFor");
     System.out.println("10. SearchStudents");
-    System.out.println("11. Exit");
+    System.out.println("11. Converter");
+    System.out.println("12. Search");
+    System.out.println("13. Exit");
 
     System.out.println();
 
@@ -76,7 +78,17 @@ public class Index{
 	    System.out.println();
 	    SearchStudents.main(null);
         break;
-     case 11:
+      case 11:
+	    System.out.println("Converter");
+	    System.out.println();
+	    Converter.main(null); 
+	break;
+      case 12:
+	    System.out.println("Search");
+	    System.out.println();
+	    Search.main(null);
+	break;
+      case 13:
      	    System.out.println("Exiting....");
      	break;
      default:
